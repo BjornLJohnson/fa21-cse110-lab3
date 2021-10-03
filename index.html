@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://st.depositphotos.com/1724125/3878/v/600/depositphotos_38786313-stock-illustration-cartoon-frog.jpg"
+    type="image/x-icon" />
+
+    <title>Team Alpha Meeting Minutes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Team Alpha Weekly Meeting</h1>
+        <h2>Member Check Ins</h2>
+        <h3>October 3rd</h3>
+
+        <nav>
+            <details>
+                <summary>Section Navigation</summary>
+                <a href="#attendance">Attendance</a><br/>
+                <a href="#agenda">Agenda</a><br/>
+                <a href="#old">Old Items</a><br/>
+                <a href="#new">New Items</a><br/>
+                <a href="#misc">Miscellaneous</a><br/>
+                <a href="#recordings">Recordings</a><br/>
+            </details>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="attendance">
+            <div><b>Attendance List</b></div>
+            <ul>
+                <li>John Doe</li>
+                <li>Sally Kim</li>
+                <li>Shrek</li>
+                <li>Jason Mraz</li>
+                <li>Barack Obama</li>
+                <li>Benjamin Werb</li>
+                <li>Alvin</li>
+                <li>The Chipmunks</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <div><b>Agenda</b></div>
+            <ol>
+                <li>Team member status updates</li>
+                <li>Discuss current blockers</li>
+                <li>Assign new weekly tasks</li>
+                <li>Handle purchase requests</li>
+                <li>Profit</li>
+            </ol>
+        </section>
+
+        <section id="old">
+            <div><b>Old Items</b></div>
+            <ul>
+                <li><em>Stuck Project</em></li>
+                <li>Team 1 <strong>needs</strong> new power cables</li>
+                <li><i>Project Evergreen</i> is behind schedule</li>
+                <li>Team 2 nearly finished with the teleportation device</li>
+            </ul>
+        </section>
+
+        <section id="new">
+            <div><b>New Items</b></div>
+            <ul>
+                <li>Jason needs to overclock the warp drives</li>
+                <li>Shrek needs to drain the swamp</li>
+                <li>Make sure Obama keeps up the good work</li>
+                <li>Discuss new funding sources (can we mine crypto using company resources?)</li>
+            </ul>
+        </section>
+
+        <section id="misc">
+            <div><b>Miscellaneous</b></div>
+            <div>Team vote: Dogfish or catfish?</div>
+            <img src="dogfish.jpeg" width="500" height="300" alt="Think fish but actually a dog"/>
+        </section>
+
+        <section id="recordings">
+            <div><b>Recordings</b></div>
+            <div>Actual video footage of this meeting</div>
+            <video width="320" height="240" controls>
+                <source src="bbb.mp4" type="video/mp4">
+            </video><br/>
+            <audio controls>
+                <source src="bbb.m4a" type="audio/mp4">
+            </audio>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <h2>Performace Award Nominations</h2>
+        <form>
+            <fieldset>
+                <legend>Who would you like to show appreciation for</legend>
+
+                <label for="member-choice">Nominated Teammate:</label>
+                <input list="members" id="member-choice"/>
+
+                <datalist id="members">
+                    <option value="Sally">
+                    <option value="John">
+                    <option value="Steve">
+                </datalist>
+
+                <div>What's your relation to this person</div>
+                <select>
+                    <option value="Team Member">Team Member</option>
+                    <option value="Management">Management</option>
+                    <option value="Other">Other</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>What would you like to nominate them for</legend>
+
+                <input type="checkbox" id="reason1">
+                <label for="reason1">Reason 1</label><br />
+
+                <input type="checkbox" id="reason2">
+                <label for="reason2">Reason 2</label><br />
+
+                <input type="checkbox" id="reason3">
+                <label for="reason3">Reason 3</label><br />
+
+                <input type="checkbox" id="reason4">
+                <label for="reason4">Reason 4</label><br />
+
+                <input type="checkbox" id="reason5">
+                <label for="reason5">Reason 5</label><br />
+
+                <div>One word to describe their contributions would be</div>
+                <input type="text" id="word"><br />
+
+                <div>Additional Comments:</div>
+                <div><textarea></textarea></div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>How easy was it to use this nomination form</legend>
+
+                <input type="radio" id="very">
+                <label for="very">Very Easy</label>
+
+                <input type="radio" id="extremely">
+                <label for="extremely">Extremely Easy</label>
+
+                <input type="radio" id="incredibly">
+                <label for="incredibly">Incredibly Easy</label>
+            </fieldset>
+
+            <div>Date</div>
+            <input type="date" id="date"><br/>
+            <button> Submit </button>
+        </form>
+    </footer>
+</body>
+
+</html>
