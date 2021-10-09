@@ -8,14 +8,24 @@
     type="image/x-icon" />
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
     <title>Team Alpha Meeting Minutes</title>
+
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Team Alpha Weekly Meeting</h1>
-        <h2>Member Check Ins</h2>
-        <h4>October 3rd</h4>
+        <h2 style="font-size: 2em;text-decoration: underline;">Member Check Ins</h2>
+        <h4 class="date">October 3rd</h4>
 
         <nav>
             <details>
@@ -33,7 +43,7 @@
     <hr>
 
     <main>
-        <section id="attendance">
+        <section type="list" id="attendance">
             <h3>Attendance List</h3>
             <ul>
                 <li>John Doe</li>
@@ -47,7 +57,7 @@
             </ul>
         </section>
 
-        <section id="agenda">
+        <section type="list" id="agenda">
             <h3>Agenda</h3>
             <ol>
                 <li>Team member status updates</li>
@@ -58,7 +68,7 @@
             </ol>
         </section>
 
-        <section id="old">
+        <section type="list" id="old">
             <h3>Old Items</h3>
             <ul>
                 <li><em>Stuck Project</em></li>
@@ -68,7 +78,7 @@
             </ul>
         </section>
 
-        <section id="new">
+        <section type="list" id="new">
             <h3>New Items</h3>
             <ul>
                 <li>Jason needs to overclock the warp drives</li>
@@ -81,6 +91,7 @@
         <section id="misc">
             <h3>Miscellaneous</h3>
             <div>Team vote: Dogfish or catfish?</div>
+            <div class="emph">Dogfish is obviously superior</div>
             <img src="dogfish.jpeg" width="500" height="300" alt="Think fish but actually a dog"/>
         </section>
 
