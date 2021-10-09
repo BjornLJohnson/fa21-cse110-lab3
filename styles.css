@@ -46,7 +46,7 @@ h3 {
 }
 
 /* Space out list items comfortably */
-[type="list"]{
+[type="list"] * {
     margin: 15px;
 }
 
